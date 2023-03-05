@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="7d676f87">
+        <description>Created after removal of "PyFlink-环境搭建" from BlogLend</description>
+        <accepts>PyFlink-环境搭建.html</accepts>
+    </rule>
+    <rule id="2308d7a2">
+        <description>Created after removal of "环境搭建" from BlogLend</description>
+        <accepts>环境搭建.html</accepts>
+    </rule>
+</rules>
