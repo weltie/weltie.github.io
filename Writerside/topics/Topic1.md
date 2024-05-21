@@ -1,3 +1,0 @@
-# Topic1
-
-Start typing here...

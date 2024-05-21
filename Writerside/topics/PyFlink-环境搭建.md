@@ -1,4 +1,4 @@
-# 环境搭建
+# PyFlink-环境搭建
 
 记录在 apple silicon 下搭建 apache-flink 1.13.6 的 PyFlink 开发环境的一些命令
 

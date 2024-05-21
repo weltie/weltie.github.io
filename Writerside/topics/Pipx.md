@@ -1,4 +1,4 @@
-# pipx
+# Pipx
 
 pipx可以安装全局的python工具 如: isort, ruff
 

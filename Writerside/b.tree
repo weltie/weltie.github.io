@@ -4,33 +4,46 @@
 
 <instance-profile id="b"
                  name="BlogLend"
-                 start-page="starter-topic.md">
+                 start-page="Starter-topic.md">
 
-    <toc-element topic="starter-topic.md"/>
+    <toc-element topic="Starter-topic.md"/>
     <toc-element topic="Starter-Tpl.md"/>
     <toc-element topic="How-to-Tpl.md"/>
     <toc-element topic="Overview-Tpl.md"/>
     <toc-element topic="Reference-Tpl.md"/>
     <toc-element topic="Tutorial-Tpl.md"/>
-    <toc-element topic="2024-05-14.md"/>
     <toc-element topic="Flink相关.md">
-        <toc-element topic="PyFlink相关.md">
-            <toc-element topic="环境搭建.md"/>
+        <toc-element topic="PyFlink-相关.md">
+            <toc-element topic="PyFlink-环境搭建.md"/>
             <toc-element topic="DataStream-API-State应用.md"/>
         </toc-element>
     </toc-element>
-    <toc-element topic="Python相关.md">
-        <toc-element topic="Dataframe.md"/>
-        <toc-element topic="pipx.md"/>
-        <toc-element topic="虚拟环境.md"/>
+    <toc-element topic="Funny-OpenSource.md"/>
+    <toc-element topic="Python.md">
+        <toc-element topic="Python虚拟环境.md"/>
         <toc-element topic="Celery.md">
+            <toc-element topic="Celery-异常记录.md"/>
             <toc-element topic="Celery-Exporter.md"/>
         </toc-element>
-        <toc-element topic="Funny-OpenSource.md"/>
+        <toc-element topic="Dataframe.md"/>
+        <toc-element topic="Conda-cmd.md"/>
+        <toc-element topic="Poetry-cmd.md">
+        </toc-element>
+    </toc-element>
+    <toc-element topic="Rust.md"/>
+    <toc-element topic="Clickhouse.md">
+        <toc-element topic="ClickHouse-操作语句.md"/>
+        <toc-element topic="ClickHouse-异常记录.md"/>
+    </toc-element>
+    <toc-element topic="CMD-Tools.md">
+        <toc-element topic="Pipx.md"/>
     </toc-element>
     <toc-element topic="凤凰架构-读书笔记.md"/>
-    <toc-element topic="WS项目部署github-pages.md"/>
-    <toc-element topic="Clickhouse.md">
-        <toc-element topic="异常记录.md"/>
+    <toc-element topic="WS项目部署github-pages.md">
+    </toc-element>
+    <toc-element topic="To-be-classified.md">
+        <toc-element topic="Database-Index.md"/>
+        <toc-element topic="Pycharm-plugins.md"/>
+        <toc-element topic="M1-mac-vmware-fusion-arm-win11-install.md"/>
     </toc-element>
 </instance-profile>
