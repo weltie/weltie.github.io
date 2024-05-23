@@ -18,7 +18,6 @@
             <toc-element topic="DataStream-API-State应用.md"/>
         </toc-element>
     </toc-element>
-    <toc-element topic="Funny-OpenSource.md"/>
     <toc-element topic="Python.md">
         <toc-element topic="Python虚拟环境.md"/>
         <toc-element topic="Celery.md">
@@ -38,10 +37,14 @@
     <toc-element topic="CMD-Tools.md">
         <toc-element topic="Pipx.md"/>
     </toc-element>
-    <toc-element topic="凤凰架构-读书笔记.md"/>
-    <toc-element topic="WS项目部署github-pages.md">
+    <toc-element topic="LLM.md">
+        <toc-element topic="LLM-Starter.md"/>
     </toc-element>
-    <toc-element topic="To-be-classified.md">
+    <toc-element topic="To-Be-Classified.md">
+        <toc-element topic="Text-Note.md"/>
+        <toc-element topic="Funny-OpenSource.md"/>
+        <toc-element topic="WS项目部署github-pages.md"/>
+        <toc-element topic="凤凰架构-读书笔记.md"/>
         <toc-element topic="Database-Index.md"/>
         <toc-element topic="Pycharm-plugins.md"/>
         <toc-element topic="M1-mac-vmware-fusion-arm-win11-install.md"/>
