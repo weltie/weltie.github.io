@@ -68,3 +68,8 @@ error: [Errno 104] Connection reset by peer
 > If set to None or 0 the connection pool will be disabled and connections will be established and closed for every use.
 
 [docs](https://celeryproject.readthedocs.io/zh-cn/latest/userguide/configuration.html#std:setting-broker_pool_limit)
+
+#### Celery Beat -s配置 
+Beat needs to store the last run times of the tasks in a local database file (named celerybeat-schedule by default), so it needs access to write in the current directory, or alternatively you can specify a custom location for this file:
+
+celery -A proj beat -s /home/celery/var/run/celerybeat-schedule
