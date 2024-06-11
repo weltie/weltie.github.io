@@ -10,7 +10,6 @@ ls tar1 | grep -v caches | xargs -i cp -r tar1/{} ./tar1_bak
 tar --exclude caches -zcvf tar2.tar.gz ./tar1
 ```
 
-
 ## gerx 生成正则表达是
 ```Shell
 grex 'a' 'ab' 'abc'
@@ -20,6 +19,7 @@ grex 'a' 'ab' 'abc'
 ```Shell
 du -h --max-depth=1
 ```
+
 ## 当前目录下所有目录及子目录大小
 ```Shell
 du -h - .
@@ -32,4 +32,14 @@ du -h - .
  -h, --human-readable：以人类可读的格式显示输出结果。
  
  df -lh
+```
+
+## 网络相关
+```Shell
+可ip 可域名
+ping xx.xx.xx.xx
+
+traceroute xx.xx.xx.xx
+
+telnet xxx.xx.xx.xx 8080
 ```
