@@ -42,4 +42,7 @@ ping xx.xx.xx.xx
 traceroute xx.xx.xx.xx
 
 telnet xxx.xx.xx.xx 8080
+
+-- mac
+nc -vz -w 2 xxx.xxx.xx.xx 8080
 ```

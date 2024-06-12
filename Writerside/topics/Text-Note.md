@@ -6,3 +6,10 @@ eq：equal to 等于
 ne：not equal to 不等于
 ge：greater than or equal to 大于等于
 gt：greater than 大于
+
+## MAC 删除 allow in background
+```Shell
+/Library/LaunchDaemons/
+/Library/LaunchAgents/
+/Library/PrivilegedHelperTools/
+```
