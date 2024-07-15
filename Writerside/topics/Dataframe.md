@@ -13,8 +13,13 @@ data_df.columns = [
     "data_min",
 ]
 ```
+
 * 多列同时修改类型
 ```Python
 data_df[["a", "b"]] = data_df[["a", "b"]].astype(int)
 ```
 
+* 新增排序列
+```Python
+data_df["number"] = range(1, len(data_df) + 1)
+```
