@@ -7,12 +7,8 @@
                  start-page="Starter-topic.md">
 
     <toc-element topic="Starter-topic.md"/>
-    <toc-element topic="Starter-Tpl.md"/>
-    <toc-element topic="How-to-Tpl.md"/>
-    <toc-element topic="Overview-Tpl.md"/>
-    <toc-element topic="Reference-Tpl.md"/>
-    <toc-element topic="Tutorial-Tpl.md"/>
     <toc-element topic="Python.md">
+        <toc-element topic="Prefect.md"/>
         <toc-element topic="Python虚拟环境.md"/>
         <toc-element topic="Celery.md">
             <toc-element topic="Celery-Redis-Broker.md"/>
@@ -47,7 +43,6 @@
     <toc-element topic="To-Be-Classified.md">
         <toc-element topic="Jenkins迁移.md"/>
         <toc-element topic="Jenkins-SSH-Node-Env-Config.md"/>
-        <toc-element topic="Text-Note.md"/>
         <toc-element topic="Funny-OpenSource.md"/>
         <toc-element topic="WS项目部署github-pages.md"/>
         <toc-element topic="凤凰架构-读书笔记.md"/>
@@ -62,7 +57,19 @@
     <toc-element topic="MACOS.md">
         <toc-element topic="MACOS-FTP-SERVER.md"/>
     </toc-element>
+    <toc-element topic="Tpl.md">
+        <toc-element topic="Tutorial-Tpl.md"/>
+        <toc-element topic="Reference-Tpl.md"/>
+        <toc-element topic="Overview-Tpl.md"/>
+        <toc-element topic="How-to-Tpl.md"/>
+        <toc-element topic="Starter-Tpl.md"/>
+    </toc-element>
+    <toc-element topic="Nginx-Docker.md"/>
+    <toc-element topic="Docker-Proxy.md"/>
+    <toc-element topic="Helm-Charts.md"/>
+    <toc-element topic="K8S.md"/>
     <toc-element topic="Linux.md">
         <toc-element topic="CMD-SHORTCUT.md"/>
     </toc-element>
+    <toc-element topic="Text-Note.md"/>
 </instance-profile>

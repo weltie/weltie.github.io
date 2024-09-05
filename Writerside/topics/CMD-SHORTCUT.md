@@ -25,6 +25,11 @@ du -h --max-depth=1
 du -h - .
 ```
 
+## 当前目录下所有文件大小（排序）
+```Shell
+du -sh * | sort -nr
+```
+
 ## 系统磁盘占用
 ```Shell
  df（英文全拼：disk free） 命令用于显示目前在 Linux 系统上的文件系统磁盘使用情况统计
