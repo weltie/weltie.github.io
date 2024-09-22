@@ -26,8 +26,14 @@ poetry init
 poetry install (代码会自动关联)
 
 ## repo config
+```Shell
    poetry config repositories.my-gitlab http://gitlab.my.com/api/v4/projects/36/packages/pypi --local
    poetry config http-basic.my-gitlab __token__ <gitlab-token> --local
+```
+
 
 ## build and publish  
+```Bash
    poetry publish --repository yyxx-gitlab --build
+```
+
