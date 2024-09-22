@@ -110,7 +110,7 @@ gitlab helm管理文档[https://docs.gitlab.com/ee/user/packages/helm_repository
 
 ### 常用命令
 
-```Cmd
+```Shell
 # 新建项目
 helm create chart_xxx_name
 
