@@ -1,5 +1,0 @@
-# Pycharm-plugins
-
-## CodeGlance
-
-## Ruff

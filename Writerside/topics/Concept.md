@@ -1,44 +1,5 @@
-# Text-Note
+# Concept
 
-lt：less than 小于
-le：less than or equal to 小于等于
-eq：equal to 等于
-ne：not equal to 不等于
-ge：greater than or equal to 大于等于
-gt：greater than 大于
-
-## MAC 删除 allow in background
-```Shell
-/Library/LaunchDaemons/
-/Library/LaunchAgents/
-/Library/PrivilegedHelperTools/
-```
-
-## Pycharm-plugins
-
-### CodeGlance
-
-### Ruff
-
-## M1-mac-vmware-fusion-arm-win11-install
-
-### Step.connect to network
-
-- unvisitable `next` button
-
-`shift + F10` open the cmd window, and execute `OOBE\BYPASSNRO` command
-
-virtual machine will restart and the next button will show on the page.
-
-### Fix Network
-
-click `tool-> install vmware tools`, will mount a mirror in D: drive
-
-1. `open the termial in drive path`
-2. execute command: `set-executionpolicy remotesigned`
-3. execute command: `.\setup.ps1`
-
-### ODS/DWD/DWS
 在数据仓库设计中，ODS、DWD 和 DWS 是三层架构中的核心概念，用于分层管理和组织数据。它们的具体含义如下：
 1.	ODS（Operational Data Store） - 操作型数据存储层
 ODS 层是数据仓库的最底层，它主要用于临时存储从业务系统（如 ERP、CRM 等）提取的原始数据。数据在这里是最原始的，通常没有经过清洗或加工，且可以包含多种来源的数据。ODS 的作用是将数据原样保存，方便后续的清洗、加工和转换。ODS 层一般与业务系统高度同步，数据实时性较高，但并不直接用于分析。
@@ -47,10 +8,11 @@ DWD 层是经过清洗、整理和规范化后的明细数据层，通常会对 
 3.	DWS（Data Warehouse Summary） - 汇总数据层
 DWS 层是更高一级的汇总数据层，通常包含经过汇总、聚合后的数据。DWS 层主要用于生成面向特定业务主题的分析数据，方便用户直接进行报表分析或 KPI 指标计算。因为数据已经汇总过了，所以查询效率较高，适合用于直接支持业务决策和分析。此层的数据粒度较粗，通常是将 DWD 层的数据进行聚合后形成的。
 
-总结
 
-	•	ODS 层：存储原始数据，适合高频更新，数据未经加工。
-	•	DWD 层：清洗规范化后的明细数据，适合更细粒度的分析。
-	•	DWS 层：汇总数据，适合高效分析，支持业务决策。
+- ODS 层：存储原始数据，适合高频更新，数据未经加工。
+- DWD 层：清洗规范化后的明细数据，适合更细粒度的分析。
+- DWS 层：汇总数据，适合高效分析，支持业务决策。
 
 通过这三层架构，数据从原始状态逐步清洗、整理、聚合，最终变为支持业务分析的高质量数据。
+
+ETL是英文Extract-Transform-Load的缩写，用来描述将数据从来源端经过抽取（extract）、转换（transform）、加载（load）至目的端的过程。

@@ -18,4 +18,36 @@
         <description>Created after removal of "2024-05-14" from BlogLend</description>
         <accepts>2024-05-14.html</accepts>
     </rule>
+    <rule id="3c9d363">
+        <description>Created after removal of "Pycharm-plugins" from BlogLend</description>
+        <accepts>Pycharm-plugins.html</accepts>
+    </rule>
+    <rule id="f2ca368">
+        <description>Created after removal of "M1-mac-vmware-fusion-arm-win11-install" from BlogLend</description>
+        <accepts>M1-mac-vmware-fusion-arm-win11-install.html</accepts>
+    </rule>
+    <rule id="15a8f08e">
+        <description>Created after removal of "To-Be-Classified" from BlogLend</description>
+        <accepts>To-Be-Classified.html</accepts>
+    </rule>
+    <rule id="58497cc">
+        <description>Created after removal of "凤凰架构-读书笔记" from BlogLend</description>
+        <accepts>凤凰架构-读书笔记.html</accepts>
+    </rule>
+    <rule id="6154e3b7">
+        <description>Created after removal of "Funny-OpenSource" from BlogLend</description>
+        <accepts>Funny-OpenSource.html</accepts>
+    </rule>
+    <rule id="59ace1c8">
+        <description>Created after removal of "LLM-VannaAI-GeneratingSQL" from BlogLend</description>
+        <accepts>LLM-VannaAI-GeneratingSQL.html</accepts>
+    </rule>
+    <rule id="6ce801f7">
+        <description>Created after removal of "Lang" from BlogLend</description>
+        <accepts>Lang.html</accepts>
+    </rule>
+    <rule id="70d981cb">
+        <description>Created after removal of "Python-虚拟环境" from BlogLend</description>
+        <accepts>Python虚拟环境.html</accepts>
+    </rule>
 </rules>

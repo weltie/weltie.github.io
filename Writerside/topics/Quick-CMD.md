@@ -1,4 +1,4 @@
-# CMD-SHORTCUT
+# Quick-CMD
 
 ## cp exclude caches dir
 ```Shell

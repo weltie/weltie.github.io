@@ -1,4 +1,4 @@
-# Poetry-cmd
+# Poetry
 
 ## installation
 
@@ -23,7 +23,7 @@ poetry init
 `poetry install --all-extras`
 
 ## debug install
-poetry install (代码会自动关联)
+`poetry install (代码会自动关联)`
 
 ## repo config
 ```Shell

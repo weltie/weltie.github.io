@@ -28,3 +28,12 @@ kubectl create namespace <insert-namespace-name-here>
 
 ### top(need Metrics Server)
 `kubectl top pod <pod-name>`
+
+`kubectl describe resourcequotas -n xxxnamespace`
+
+`kubectl get nodes`
+
+`kubectl describe node xxx`
+
+`kubectl get resourcequotas -n app1-release`
+`kubectl describe statefulset xxxx -n xxxnamespace`

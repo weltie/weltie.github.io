@@ -12,8 +12,3 @@ pipx可以安装全局的python工具 如: isort, ruff
 ```Shell
     pipx install ruff
 ```
-
-
-# terminalizer
-record your terminal
-https://github.com/faressoft/terminalizer

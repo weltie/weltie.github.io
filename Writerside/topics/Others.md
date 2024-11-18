@@ -1,3 +1,3 @@
-# Funny-OpenSource
+# Others
 
 Start typing here...

@@ -1,4 +1,4 @@
-# Conda-cmd
+# Conda
 
 ## create
 
