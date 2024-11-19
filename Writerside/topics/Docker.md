@@ -49,3 +49,22 @@ sudo docker run hello-world
 ```Shell
 docker buildx build --platform linux/amd64,linux/arm64 .
 ```
+
+### space used
+```Shell
+docker system df
+
+docker system df -v 
+```
+
+### cache prune
+```Shell
+# 清理磁盘，删除关闭的容器、无用的数据卷和网络，以及dangling镜像（即无tag的镜像）。
+docker system prune
+
+# 清理得更加彻底，可以将没有容器使用Docker镜像都删掉。
+docker system prune -a
+
+# 保留最近10天的缓存示例命令如下
+docker builder prune --filter 'until=240h'
+```

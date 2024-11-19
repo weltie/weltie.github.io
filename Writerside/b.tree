@@ -58,10 +58,12 @@
         <toc-element topic="MACOS-FTP-SERVER.md"/>
     </toc-element>
     <toc-element topic="Linux.md">
+        <toc-element topic="Monit.md"/>
         <toc-element topic="Firewall.md"/>
         <toc-element topic="Quick-CMD.md"/>
     </toc-element>
     <toc-element topic="Others.md">
+        <toc-element topic="GIT.md"/>
         <toc-element topic="WS项目部署github-pages.md"/>
         <toc-element topic="Text-Note.md"/>
         <toc-element topic="Hashicorp-Vault.md"/>
