@@ -68,3 +68,16 @@ docker system prune -a
 # 保留最近10天的缓存示例命令如下
 docker builder prune --filter 'until=240h'
 ```
+
+### docker desktop 
+starting vpnkit-controller and storage-provisioner
+```Shell
+rm -rf ~/.kube
+```
+
+### 删除 none 镜像
+```Shell
+docker images | grep none | awk '{print $3}' | xargs docker rmi
+
+docker images | grep none | awk '$1 == "<none>" {print $1, $3}' | xargs docker rmi -f
+```

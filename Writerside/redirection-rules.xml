@@ -50,4 +50,12 @@
         <description>Created after removal of "Python-虚拟环境" from BlogLend</description>
         <accepts>Python虚拟环境.html</accepts>
     </rule>
+    <rule id="77d057f0">
+        <description>Created after removal of "ClickHouse-操作语句" from BlogLend</description>
+        <accepts>ClickHouse-操作语句.html</accepts>
+    </rule>
+    <rule id="57efe3f2">
+        <description>Created after removal of "Pipx" from Lemon's Memory</description>
+        <accepts>Pix.html</accepts>
+    </rule>
 </rules>

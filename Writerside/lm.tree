@@ -2,18 +2,17 @@
 <!DOCTYPE instance-profile
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
-<instance-profile id="b"
-                 name="BlogLend"
-                 start-page="Starter-topic.md">
+<instance-profile id="lm"
+                 name="Lemon's Memory"
+                 start-page="About.md">
 
-    <toc-element topic="Starter-topic.md"/>
+    <toc-element topic="About.md"/>
     <toc-element topic="DataHouse.md">
         <toc-element topic="Database-Index.md"/>
         <toc-element topic="MySQL.md">
             <toc-element topic="MySQL-information-schema.md"/>
         </toc-element>
         <toc-element topic="Clickhouse.md">
-            <toc-element topic="ClickHouse-操作语句.md"/>
             <toc-element topic="ClickHouse-异常记录.md"/>
         </toc-element>
         <toc-element topic="Flink相关.md">
@@ -33,6 +32,8 @@
         <toc-element topic="Nginx-Docker.md"/>
     </toc-element>
     <toc-element topic="Python.md">
+        <toc-element topic="Superset.md"/>
+        <toc-element topic="Pip.md"/>
         <toc-element topic="Celery.md">
             <toc-element topic="Celery-Redis-Broker.md"/>
             <toc-element topic="Celery-异常记录.md"/>
@@ -54,6 +55,7 @@
             <toc-element topic="Jenkins-Node.md"/>
         </toc-element>
     </toc-element>
+    <toc-element topic="GITLAB-RUNNER.md"/>
     <toc-element topic="MACOS.md">
         <toc-element topic="MACOS-FTP-SERVER.md"/>
     </toc-element>
@@ -63,6 +65,7 @@
         <toc-element topic="Quick-CMD.md"/>
     </toc-element>
     <toc-element topic="Others.md">
+        <toc-element topic="Bing.md"/>
         <toc-element topic="GIT.md"/>
         <toc-element topic="WS项目部署github-pages.md"/>
         <toc-element topic="Text-Note.md"/>

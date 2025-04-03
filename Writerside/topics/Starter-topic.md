@@ -1,3 +1,0 @@
-# About BlogLend
-
-Hello, World!!!

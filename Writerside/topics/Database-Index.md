@@ -1,12 +1,5 @@
 # Database-Index
 
----
-layout: post
-title: "database index"
-date: 2023-03-19 11:34:25 +0800
-categories: database index
----
-
 ## 存储类型
 
 存储数据时，数据在硬盘[内存]中的物理顺序，分为行存，列存
@@ -42,10 +35,12 @@ OLAP系统需要对某列大量数据进行读取，如果采用行存，目标�
 
 - 聚簇索引
     - 主键索引
-      ![avatar](primary-key.png)
+      
+    - ![avatar](primary-key.png)
 - 非聚簇索引
     - 辅助索引
-      ![avatar](secondary-key.png)
+      
+    - ![avatar](secondary-key.png)
 
 - 索引流程
 

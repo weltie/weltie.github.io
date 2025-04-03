@@ -31,9 +31,8 @@ poetry init
    poetry config http-basic.my-gitlab __token__ <gitlab-token> --local
 ```
 
-
 ## build and publish  
 ```Bash
-   poetry publish --repository yyxx-gitlab --build
+   poetry publish --repository my-gitlab --build
 ```
 

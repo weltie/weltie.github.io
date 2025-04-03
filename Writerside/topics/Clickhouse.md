@@ -1,3 +1,1 @@
 # Clickhouse
-
-Start typing here...

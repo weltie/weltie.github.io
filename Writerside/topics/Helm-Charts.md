@@ -1,5 +1,7 @@
 # Helm-Charts
 
+[HelmChart.Docs](https://helm.sh/zh/docs/)
+
 ### install kubernetes
 
 docker desktop enable kubernetes engine and check result:
@@ -97,21 +99,12 @@ helm repo add --username <xxx> --password <token> <repo_name> https://gitlab.exa
 helm cm-push xxx.tgz <repo_name>
 ```
 
-## Helm Chart 简介和常用命令
+## Helm Chart Example With GitlabCE
 
-[HelmChart官方文档](https://helm.sh/zh/docs/)
-
-### 简介
-
-HelmChart是k8s的包管理器，如linux下的yum，apt等。
-可直接通过helm install 安装应用到k8s。
-
-gitlab helm管理文档[https://docs.gitlab.com/ee/user/packages/helm_repository/]
-
-### 常用命令
+[gitlab helm.Docs](https://docs.gitlab.com/ee/user/packages/helm_repository/)
 
 ```Shell
-# 新建项目
+# new
 helm create chart_xxx_name
 
 # 打包项目
@@ -125,7 +118,7 @@ helm repo add --username xxx --password xxx my-gitlab https://gitlab.example.com
 helm plugin install https://github.com/chartmuseum/helm-push
 
 # 推送
-helm cm-push chart_xxx_name-0.1.0.tgz yyxx-gitlab
+helm cm-push chart_xxx_name-0.1.0.tgz my-gitlab
 ```
 
 

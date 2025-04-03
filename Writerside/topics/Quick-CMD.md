@@ -51,3 +51,8 @@ telnet xxx.xx.xx.xx 8080
 -- mac
 nc -vz -w 2 xxx.xxx.xx.xx 8080
 ```
+
+## tar
+```Bash
+   tar -cvf 
+```
