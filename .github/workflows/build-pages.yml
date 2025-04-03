@@ -12,8 +12,8 @@ permissions:
   id-token: write
 
 env:
-  INSTANCE: 'Writerside/b'
-  ARTIFACT: 'webHelpB2-all.zip'
+  INSTANCE: 'Writerside/lm'
+  ARTIFACT: 'webHelpLM2-all.zip'
   DOCKER_VERSION: '241.15989'
 
 jobs:
