@@ -20,6 +20,17 @@ sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/dock
 
 ### install the latest version
 ```Shell
+sudo yum install --nogpgcheck docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+```
+
+```
+Error:
+warning: /var/cache/yum/x86_64/7/docker-ce-stable/packages/docker-compose-plugin-2.27.1-1.el7.x86_64.rpm: Header V4 RSA/SHA512 Signature, key ID 621e9f35: NOKEY
+Retrieving key from https://download.docker.com/linux/centos/gpg
+
+
+GPG key retrieval failed: [Errno 14] curl#35 - "TCP connection reset by peer"
+Fix:
 sudo yum install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 

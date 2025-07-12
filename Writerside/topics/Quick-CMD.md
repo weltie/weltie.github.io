@@ -51,8 +51,23 @@ telnet xxx.xx.xx.xx 8080
 -- mac
 nc -vz -w 2 xxx.xxx.xx.xx 8080
 ```
+https://115.159.130.132/openbi/flow-server.git
+115.159.130.132
 
 ## tar
 ```Bash
    tar -cvf 
+```
+
+## git-lfs
+```Shell
+1. Adding the packagecloud repository
+apt/deb repos: curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.rpm.sh | sudo bash
+
+2. Installing packages
+apt/deb: sudo apt-get install git-lfs
+yum/rpm: sudo yum install git-lfs
+
+
 ```
